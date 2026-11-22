@@ -1,4 +1,4 @@
-# OARR
+# CMV-CG
 
 OARR is a training-free image captioning method based on multi-view candidate reranking.
 
