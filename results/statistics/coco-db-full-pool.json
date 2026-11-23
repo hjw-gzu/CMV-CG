@@ -1,0 +1,18 @@
+{
+  "ours": {
+    "oracle_CIDEr": 139.25486252541327,
+    "selected_CIDEr": 99.10857805369805,
+    "unique_candidates": 11.9234,
+    "generation_records": 20.0,
+    "selection_gap": 40.14628447171522
+  },
+  "single20": {
+    "oracle_CIDEr": 144.5400540283821,
+    "selected_CIDEr": 94.2298783170353,
+    "unique_candidates": 19.6836,
+    "generation_records": 20.0,
+    "selection_gap": 50.310175711346766
+  },
+  "auxiliary_beats_original_branch_fraction": 0.6062,
+  "multiview_oracle_beats_single20_fraction": 0.2462
+}

@@ -1,0 +1,18 @@
+# Python 3.12.3. Install PyTorch/torchvision using the CUDA index in README first.
+setuptools<81
+numpy==2.3.2
+pillow==11.3.0
+pyyaml==6.0.2
+transformers==5.8.0
+einops==0.8.2
+ema-pytorch==0.7.9
+accelerate==1.13.0
+ftfy==6.3.1
+regex==2026.4.4
+tqdm==4.67.3
+matplotlib==3.10.5
+scipy==1.17.1
+pycocotools==2.0.11
+pycocoevalcap==1.2
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+

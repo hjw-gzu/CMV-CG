@@ -1,0 +1,48 @@
+{
+  "cmvcg-coco-test-features.zip": {
+    "sha256": "c7422ea6ba5de0d33079e3380450adc0ff0e243804950b6ec489e2bdcbcbf18f",
+    "bytes": 30063673,
+    "files": {
+      "features/coco-test.npz": "34741352ce1a5b4a609e51ef249bfa553abbce89d743f1049d08c5ea14f8544d"
+    }
+  },
+  "cmvcg-coco-captioner.zip": {
+    "sha256": "703df5c8ce730ddadd5b6d531482385a7374c2b67f2924bf1be3713fbd4429a9",
+    "bytes": 580803491,
+    "files": {
+      "coco/decoder.ckpt": "69dcb76c6797af8037bb698e1ce0084d7d22a6c0a9c92822bd3d81dbb05fce3e",
+      "coco/image_mean.npy": "54706041532a71cfba2519d2e405d30007c98423ccad5c6565e8d151146be86a",
+      "licenses/GPT-2-LICENSE.txt": "0dbeda4bc78823b1d67ec0ee414d8690ee4cad826bc9c147b215adc3af202436"
+    }
+  },
+  "cmvcg-flickr-test-features.zip": {
+    "sha256": "2844bfed44412f0ba4e13712a23ad09d32e08106fbf3cac124794def28bd6984",
+    "bytes": 15583988,
+    "files": {
+      "features/flickr-test.npz": "980ac6b8f0bb47dfac9fb7e7af45d9aa470c534fc2d6b0bf2b10a4f329c042c1"
+    }
+  },
+  "cmvcg-flickr-captioner.zip": {
+    "sha256": "112952162e8a6a04fb08fb62691fb377df64b1a631d00ef45a45a5fd6d1a78df",
+    "bytes": 640858119,
+    "files": {
+      "flickr/decoder.ckpt": "ecd350d63bf47b605033709a715cde86ce43bf5c978ac5837771f6fef64b4e10",
+      "flickr/image_mean.npy": "8c8de4848dba9e6b27de60524b5f171329499c7664ab0e5c0f731261fee3baff",
+      "flickr/model-60.pt": "89dc8163c8fa35c6494827ca39242f0b40fac243426cfb6b1be9bd70fab716c3",
+      "licenses/GPT-2-LICENSE.txt": "0dbeda4bc78823b1d67ec0ee414d8690ee4cad826bc9c147b215adc3af202436"
+    }
+  },
+  "cmvcg-shared-runtime.zip": {
+    "sha256": "522d05658f996dbb0e1f5fc0c2ffd5d0d4ea9e34034b851bd5b69d7c4c6d77d9",
+    "bytes": 1120547,
+    "files": {
+      "gpt2/config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+      "gpt2/vocab.json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783",
+      "gpt2/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "gpt2/tokenizer.json": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+      "gpt2/tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+      "gpt2/generation_config.json": "ed0b32ac72c0f5f44a719abb2d7786ea5146c871f83717b7f2018065954de02b",
+      "licenses/GPT-2-LICENSE.txt": "0dbeda4bc78823b1d67ec0ee414d8690ee4cad826bc9c147b215adc3af202436"
+    }
+  }
+}

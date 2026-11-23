@@ -1,0 +1,16 @@
+Backbone,Configuration,Unique,Oracle C,Selected C,Gap
+(a) MSCOCO
+Diffusion Bridge,Single-view beam20,19.684,144.540,94.230,50.310
+Diffusion Bridge,"Ours, five-view beam4",11.923,139.255,99.109,40.146
+BLIP,Single-view beam20,19.995,165.787,113.679,52.108
+BLIP,"Ours, five-view beam4",10.038,156.251,116.366,39.885
+(b) Flickr30k
+Diffusion Bridge,Single-view beam20,19.885,94.099,58.756,35.343
+Diffusion Bridge,"Ours, five-view beam4",14.176,93.964,61.237,32.728
+BLIP,Single-view beam20,20.000,97.228,60.759,36.469
+BLIP,"Ours, five-view beam4",10.558,97.137,68.650,28.487
+Dataset,Backbone,Mean K,\DeltaOracle C,\DeltaC [interval],\DeltaS [interval]
+MSCOCO,Diffusion Bridge,11.901,4.095,"5.323 [3.855, 6.827]","0.363 [0.099, 0.623]"
+MSCOCO,BLIP,10.038,6.737,"6.216 [4.478, 7.939]","0.759 [0.466, 1.056]"
+Flickr30k,Diffusion Bridge,14.166,5.010,"3.252 [0.287, 6.297]","0.551 [0.024, 1.090]"
+Flickr30k,BLIP,10.558,11.705,"9.257 [6.048, 12.660]","1.405 [0.841, 1.972]"

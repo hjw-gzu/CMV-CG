@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this software."
+title: "CMV-CG: Controlled Multi-View Candidate Generation for Training-Free Image Captioning"
+type: software
+authors:
+  - family-names: Huang
+    given-names: Jingwen
+    orcid: "https://orcid.org/0009-0002-1114-1143"
+repository-code: "https://github.com/hjw-gzu/CMV-CG"
+license: MIT
+

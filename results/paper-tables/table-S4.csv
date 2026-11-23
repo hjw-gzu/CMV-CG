@@ -1,0 +1,25 @@
+Configuration,MSCOCO C,MSCOCO S,Flickr30k C,Flickr30k S
+\multicolumn{5}{@{}l}{(a) Fixed rules}
+Original-image CLIP,97.60,19.16,59.45,16.12
+Multi-view CLIP,97.28,19.23,59.94,16.34
+Generation probability,93.62,18.09,56.77,14.95
+Caption consensus,94.87,18.49,58.58,15.20
+CLIP + consensus (equal),95.84,18.93,60.35,16.05
+CLIP + probability (equal),98.35,18.96,60.70,16.14
+Four scores (equal),99.00,19.18,61.39,16.23
+w/o original-image score,98.78,19.05,61.28,15.95
+Ours (fixed selector),99.13,19.22,61.03,16.31
+\multicolumn{5}{@{}l}{(b) Validation-tuned rules}
+CLIP + consensus (tuned),97.72,19.20,59.91,16.16
+CLIP + probability (tuned),99.06,19.15,61.67,16.23
+w/o original-image score (tuned),99.35,19.16,61.19,16.02
+Four scores (tuned),99.65,19.22,61.64,16.28
+\multicolumn{5}{@{}l}{(c) Scoring-component removal}
+Ours (full configuration),99.053,19.204,61.287,16.324
+w/o original-image score,98.788,19.053,61.580,16.003
+w/o multi-view score,98.645,19.082,62.049,16.202
+w/o generation-probability score,98.021,19.294,60.167,16.281
+w/o caption-consensus score,98.879,19.230,61.140,16.234
+\multicolumn{5}{@{}l}{(d) Source of generation probabilities}
+Generation-branch probability,99.13,19.22,61.03,16.31
+Original-image recomputed probability,98.35,19.21,60.69,16.32

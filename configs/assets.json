@@ -1,0 +1,49 @@
+{
+  "coco": {
+    "decoder": {
+      "sha256": "69dcb76c6797af8037bb698e1ce0084d7d22a6c0a9c92822bd3d81dbb05fce3e",
+      "source_sha256": "52d9b48b26e098e4a30720ea7bb32b1bfbeb0527d32dcd85546c13edfbab4e91",
+      "config_sha256": "7b465313f1a1d612036122158ab0f3163b58b1c44a229c59d8589415316e4a03",
+      "source_config_sha256": "fc1953218c99845d22b3d2807c4ed1087dbb6dd386028ac16a4a1e6c85b8d21d",
+      "tensors": 153
+    },
+    "original": {
+      "config": "fc1953218c99845d22b3d2807c4ed1087dbb6dd386028ac16a4a1e6c85b8d21d",
+      "raw": "237d520def3d01a47ae0817b81254372526caad6a884ae3dbcfc91f612d23751",
+      "bridged": "663d8e40638464262b2f8ae467ba5724e3edd7179d305c07ea8f0f31d20628c0",
+      "caption": "52d9b48b26e098e4a30720ea7bb32b1bfbeb0527d32dcd85546c13edfbab4e91",
+      "bridge": "caf230895e88c3b1a1b4b0c037201ba19479ee55f6a858a132621686206a9227",
+      "image_mean": "ff57bf30194effb5afa892b0fbf9719ba4594ac11ea457a99352f50a45a290cc",
+      "labels": "fae836b7f213c9be27af5e031d1b29c3c8488e1d6433a72921475db98d9635d9",
+      "clip": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "gpt2": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707"
+    },
+    "bridge_source": "eda0658025827004e00ace78fbca6976aed62a361a66699cfabde413453a2117",
+    "bridged_source": "99bf9c5ee46ebf834dff0251ca1d48dc8b798326b6c3cdfff75ce4e15c675d3c",
+    "bridge_name": "model-300.pt"
+  },
+  "flickr": {
+    "decoder": {
+      "sha256": "ecd350d63bf47b605033709a715cde86ce43bf5c978ac5837771f6fef64b4e10",
+      "source_sha256": "9901abdd36c83daf898a862d601c4418b20a3b8096697fc3fea5dae49a0b0429",
+      "config_sha256": "7b465313f1a1d612036122158ab0f3163b58b1c44a229c59d8589415316e4a03",
+      "source_config_sha256": "bd642d717c86cb2edcc37fa395f3e92f0010424f7e7986aca63a6c9a1c12f06d",
+      "tensors": 153
+    },
+    "original": {
+      "config": "67b82d45c6514bac0a51e9c9299ef66520759bcc43dcdfcf7708ce9f07c83403",
+      "raw": "03b9ee8bd85dbdfbd208ce08ff826dcaeb57790728c44a787921f233b501829a",
+      "caption": "9901abdd36c83daf898a862d601c4418b20a3b8096697fc3fea5dae49a0b0429",
+      "bridge": "89dc8163c8fa35c6494827ca39242f0b40fac243426cfb6b1be9bd70fab716c3",
+      "image_mean": "1cedc0a304bca404f47282718d22b30e3914f6925b248600260685d89a006bba",
+      "labels": "673b159bf4d3ce2a4a9026ef70bfb611ba5b57cadf385ec3c6956a4c353e7131",
+      "clip": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+      "gpt2": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+      "bridged": "49d870e72be8d1ba41fab6d191a3d026d84e215780473f771ebbe3c4f367b7ae"
+    },
+    "bridge_source": "eda0658025827004e00ace78fbca6976aed62a361a66699cfabde413453a2117",
+    "raw_source": "03b9ee8bd85dbdfbd208ce08ff826dcaeb57790728c44a787921f233b501829a",
+    "bridged_source": "49d870e72be8d1ba41fab6d191a3d026d84e215780473f771ebbe3c4f367b7ae",
+    "bridge_name": "model-60.pt"
+  }
+}

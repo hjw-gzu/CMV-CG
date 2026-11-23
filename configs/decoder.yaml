@@ -1,0 +1,8 @@
+encoder:
+  embed_dim: 512
+decoder:
+  modality: language
+model:
+  mapping_type: mlp
+  prefix_length: 10
+  checkpoint: null

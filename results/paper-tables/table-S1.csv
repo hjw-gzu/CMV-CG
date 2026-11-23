@@ -1,0 +1,10 @@
+Configuration,B@1,B@4,M,R-L,C,S,Mean,Median
+(a) MSCOCO
+Single-view beam20,73.289,35.308,27.148,55.530,113.679,21.375,1.153,1.147
+"Ours, five-view beam4",74.770,36.194,27.449,56.248,116.366,21.613,1.498,1.460
+(b) Flickr30k
+Single-view beam20,65.831,24.994,20.517,47.966,60.759,14.899,1.018,0.969
+"Ours, five-view beam4",71.301,28.601,22.187,50.114,68.650,15.998,1.378,1.373
+Dataset,\DeltaC [adjusted interval],\DeltaS [adjusted interval]
+MSCOCO,"2.687 [1.049, 4.393]","0.237 [-0.041, 0.521]"
+Flickr30k,"7.892 [4.911, 11.132]","1.099 [0.567, 1.637]"

@@ -1,0 +1,47 @@
+{
+  "source_dataset": "flickr",
+  "views": [
+    "original",
+    "rotate_left",
+    "rotate_right",
+    "zoom_in",
+    "zoom_out_black"
+  ],
+  "rotations": [
+    5,
+    -5
+  ],
+  "zoom_ratio": 0.8,
+  "ddim_start": 400,
+  "ddim_steps": 5,
+  "view_beam": 4,
+  "max_tokens": 39,
+  "in_domain_weights": [
+    0.35,
+    0.25,
+    0.2,
+    0.2
+  ],
+  "transfer_weights": [
+    0.35,
+    0.2,
+    0.15,
+    0.3
+  ],
+  "transfer_target": "coco",
+  "weights_order": [
+    "original_clip",
+    "multiview_clip",
+    "language_probability",
+    "caption_consensus"
+  ],
+  "seeds": [
+    1234,
+    2345,
+    3456
+  ],
+  "near_budget_single_beam": 80,
+  "bridge_training_steps": 3000000,
+  "checkpoint_save_interval": 50000,
+  "checkpoint_milestone": 60
+}

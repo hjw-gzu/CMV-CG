@@ -1,0 +1,502 @@
+{
+  "dataset": "flickr",
+  "image_id": 13990,
+  "file_name": "3474406285.jpg",
+  "panels": {
+    "a": {
+      "arm": "single_beam_20",
+      "caption": "A dog jumps in the air to catch a Frisbee.",
+      "candidates": [
+        {
+          "caption": "A dog jumps to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.29833540320396423,
+            "multiview_clip": 0.3019764721393585,
+            "language_probability": 0.5040047221415196,
+            "caption_consensus": 0.9493715167045593
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2960072159767151,
+            "multiview_clip": 0.29862260818481445,
+            "language_probability": 0.4898681861785355,
+            "caption_consensus": 0.9441760182380676
+          }
+        },
+        {
+          "caption": "A dog jumps in the air to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2875256836414337,
+            "multiview_clip": 0.29405733942985535,
+            "language_probability": 0.5683409099599892,
+            "caption_consensus": 0.9387385845184326
+          }
+        },
+        {
+          "caption": "A dog jumps up to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2980251908302307,
+            "multiview_clip": 0.30100029706954956,
+            "language_probability": 0.48108760890500024,
+            "caption_consensus": 0.9497126340866089
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.30434828996658325,
+            "multiview_clip": 0.3068121075630188,
+            "language_probability": 0.518298297818351,
+            "caption_consensus": 0.9314448833465576
+          }
+        },
+        {
+          "caption": "A dog is jumping in the air to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2935391366481781,
+            "multiview_clip": 0.29754525423049927,
+            "language_probability": 0.5319720468783987,
+            "caption_consensus": 0.9358715415000916
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.3005339205265045,
+            "multiview_clip": 0.30314984917640686,
+            "language_probability": 0.5025359841817041,
+            "caption_consensus": 0.9248363971710205
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in a competition.",
+          "raw_scores": {
+            "original_clip": 0.3379920721054077,
+            "multiview_clip": 0.34191662073135376,
+            "language_probability": 0.5008645390108075,
+            "caption_consensus": 0.9497205018997192
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in a competition.",
+          "raw_scores": {
+            "original_clip": 0.33837375044822693,
+            "multiview_clip": 0.3417540192604065,
+            "language_probability": 0.4864031367595323,
+            "caption_consensus": 0.9479855895042419
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in midair.",
+          "raw_scores": {
+            "original_clip": 0.3034299612045288,
+            "multiview_clip": 0.30999791622161865,
+            "language_probability": 0.4823985037290016,
+            "caption_consensus": 0.9508935213088989
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in a park.",
+          "raw_scores": {
+            "original_clip": 0.2997673749923706,
+            "multiview_clip": 0.3009940981864929,
+            "language_probability": 0.47640134469236795,
+            "caption_consensus": 0.9272511005401611
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in midair.",
+          "raw_scores": {
+            "original_clip": 0.29939892888069153,
+            "multiview_clip": 0.30562135577201843,
+            "language_probability": 0.47633435731797974,
+            "caption_consensus": 0.9477772116661072
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee during a competition.",
+          "raw_scores": {
+            "original_clip": 0.3314288854598999,
+            "multiview_clip": 0.34015634655952454,
+            "language_probability": 0.4739589673918998,
+            "caption_consensus": 0.9175425171852112
+          }
+        },
+        {
+          "caption": "A dog jumps up to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.3043128252029419,
+            "multiview_clip": 0.30593547224998474,
+            "language_probability": 0.48942266661572875,
+            "caption_consensus": 0.9302877187728882
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in front of a crowd.",
+          "raw_scores": {
+            "original_clip": 0.32579997181892395,
+            "multiview_clip": 0.3309776186943054,
+            "language_probability": 0.5097973662200758,
+            "caption_consensus": 0.9375979900360107
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in front of a crowd.",
+          "raw_scores": {
+            "original_clip": 0.32742375135421753,
+            "multiview_clip": 0.3315867483615875,
+            "language_probability": 0.4966695381962514,
+            "caption_consensus": 0.9342140555381775
+          }
+        },
+        {
+          "caption": "A dog jumps in the air to catch a Frisbee in a competition.",
+          "raw_scores": {
+            "original_clip": 0.3192911744117737,
+            "multiview_clip": 0.3271966874599457,
+            "language_probability": 0.5130842706012038,
+            "caption_consensus": 0.9300767779350281
+          }
+        },
+        {
+          "caption": "A dog jumps in the air to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.2949712872505188,
+            "multiview_clip": 0.30046021938323975,
+            "language_probability": 0.5106504699641484,
+            "caption_consensus": 0.9293134808540344
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in front of a crowd of people.",
+          "raw_scores": {
+            "original_clip": 0.32738587260246277,
+            "multiview_clip": 0.33217474818229675,
+            "language_probability": 0.5058012928349087,
+            "caption_consensus": 0.9296674132347107
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in front of a crowd of spectators.",
+          "raw_scores": {
+            "original_clip": 0.33477020263671875,
+            "multiview_clip": 0.3422400951385498,
+            "language_probability": 0.4980852438885869,
+            "caption_consensus": 0.923008382320404
+          }
+        }
+      ],
+      "weights": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "b": {
+      "arm": "single_beam_20",
+      "caption": "A dog jumps to catch a Frisbee in a competition.",
+      "candidates": [
+        {
+          "caption": "A dog jumps to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.29833540320396423,
+            "multiview_clip": 0.3019764721393585,
+            "language_probability": 0.5040047221415196,
+            "caption_consensus": 0.9493715167045593
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2960072159767151,
+            "multiview_clip": 0.29862260818481445,
+            "language_probability": 0.4898681861785355,
+            "caption_consensus": 0.9441760182380676
+          }
+        },
+        {
+          "caption": "A dog jumps in the air to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2875256836414337,
+            "multiview_clip": 0.29405733942985535,
+            "language_probability": 0.5683409099599892,
+            "caption_consensus": 0.9387385845184326
+          }
+        },
+        {
+          "caption": "A dog jumps up to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2980251908302307,
+            "multiview_clip": 0.30100029706954956,
+            "language_probability": 0.48108760890500024,
+            "caption_consensus": 0.9497126340866089
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.30434828996658325,
+            "multiview_clip": 0.3068121075630188,
+            "language_probability": 0.518298297818351,
+            "caption_consensus": 0.9314448833465576
+          }
+        },
+        {
+          "caption": "A dog is jumping in the air to catch a Frisbee.",
+          "raw_scores": {
+            "original_clip": 0.2935391366481781,
+            "multiview_clip": 0.29754525423049927,
+            "language_probability": 0.5319720468783987,
+            "caption_consensus": 0.9358715415000916
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.3005339205265045,
+            "multiview_clip": 0.30314984917640686,
+            "language_probability": 0.5025359841817041,
+            "caption_consensus": 0.9248363971710205
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in a competition.",
+          "raw_scores": {
+            "original_clip": 0.3379920721054077,
+            "multiview_clip": 0.34191662073135376,
+            "language_probability": 0.5008645390108075,
+            "caption_consensus": 0.9497205018997192
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in a competition.",
+          "raw_scores": {
+            "original_clip": 0.33837375044822693,
+            "multiview_clip": 0.3417540192604065,
+            "language_probability": 0.4864031367595323,
+            "caption_consensus": 0.9479855895042419
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in midair.",
+          "raw_scores": {
+            "original_clip": 0.3034299612045288,
+            "multiview_clip": 0.30999791622161865,
+            "language_probability": 0.4823985037290016,
+            "caption_consensus": 0.9508935213088989
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in a park.",
+          "raw_scores": {
+            "original_clip": 0.2997673749923706,
+            "multiview_clip": 0.3009940981864929,
+            "language_probability": 0.47640134469236795,
+            "caption_consensus": 0.9272511005401611
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in midair.",
+          "raw_scores": {
+            "original_clip": 0.29939892888069153,
+            "multiview_clip": 0.30562135577201843,
+            "language_probability": 0.47633435731797974,
+            "caption_consensus": 0.9477772116661072
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee during a competition.",
+          "raw_scores": {
+            "original_clip": 0.3314288854598999,
+            "multiview_clip": 0.34015634655952454,
+            "language_probability": 0.4739589673918998,
+            "caption_consensus": 0.9175425171852112
+          }
+        },
+        {
+          "caption": "A dog jumps up to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.3043128252029419,
+            "multiview_clip": 0.30593547224998474,
+            "language_probability": 0.48942266661572875,
+            "caption_consensus": 0.9302877187728882
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in front of a crowd.",
+          "raw_scores": {
+            "original_clip": 0.32579997181892395,
+            "multiview_clip": 0.3309776186943054,
+            "language_probability": 0.5097973662200758,
+            "caption_consensus": 0.9375979900360107
+          }
+        },
+        {
+          "caption": "A dog leaps to catch a Frisbee in front of a crowd.",
+          "raw_scores": {
+            "original_clip": 0.32742375135421753,
+            "multiview_clip": 0.3315867483615875,
+            "language_probability": 0.4966695381962514,
+            "caption_consensus": 0.9342140555381775
+          }
+        },
+        {
+          "caption": "A dog jumps in the air to catch a Frisbee in a competition.",
+          "raw_scores": {
+            "original_clip": 0.3192911744117737,
+            "multiview_clip": 0.3271966874599457,
+            "language_probability": 0.5130842706012038,
+            "caption_consensus": 0.9300767779350281
+          }
+        },
+        {
+          "caption": "A dog jumps in the air to catch a Frisbee in a field.",
+          "raw_scores": {
+            "original_clip": 0.2949712872505188,
+            "multiview_clip": 0.30046021938323975,
+            "language_probability": 0.5106504699641484,
+            "caption_consensus": 0.9293134808540344
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in front of a crowd of people.",
+          "raw_scores": {
+            "original_clip": 0.32738587260246277,
+            "multiview_clip": 0.33217474818229675,
+            "language_probability": 0.5058012928349087,
+            "caption_consensus": 0.9296674132347107
+          }
+        },
+        {
+          "caption": "A dog jumps to catch a Frisbee in front of a crowd of spectators.",
+          "raw_scores": {
+            "original_clip": 0.33477020263671875,
+            "multiview_clip": 0.3422400951385498,
+            "language_probability": 0.4980852438885869,
+            "caption_consensus": 0.923008382320404
+          }
+        }
+      ],
+      "weights": [
+        0.5,
+        0,
+        0.5,
+        0
+      ]
+    },
+    "c": {
+      "arm": "multiview",
+      "caption": "A dog is jumping over a hurdle in a competition.",
+      "candidates": [
+        {
+          "caption": "A dog jumps over a hurdle in a competition.",
+          "raw_scores": {
+            "original_clip": 0.3063870668411255,
+            "multiview_clip": 0.332108736038208,
+            "language_probability": 0.5339812693471422,
+            "caption_consensus": 0.9085068106651306
+          }
+        },
+        {
+          "caption": "A dog is jumping over a hurdle in a competition.",
+          "raw_scores": {
+            "original_clip": 0.3125108778476715,
+            "multiview_clip": 0.33495664596557617,
+            "language_probability": 0.5188002350031898,
+            "caption_consensus": 0.9111347198486328
+          }
+        },
+        {
+          "caption": "A dog is jumping over a hurdle in a field.",
+          "raw_scores": {
+            "original_clip": 0.29836708307266235,
+            "multiview_clip": 0.3233616352081299,
+            "language_probability": 0.37191883629740297,
+            "caption_consensus": 0.9036436080932617
+          }
+        },
+        {
+          "caption": "A dog is running through a field while a man watches.",
+          "raw_scores": {
+            "original_clip": 0.28108277916908264,
+            "multiview_clip": 0.27747994661331177,
+            "language_probability": 0.3959590542218567,
+            "caption_consensus": 0.6848853230476379
+          }
+        },
+        {
+          "caption": "A dog jumps over a hurdle.",
+          "raw_scores": {
+            "original_clip": 0.2899916172027588,
+            "multiview_clip": 0.3154976963996887,
+            "language_probability": 0.4895112461288235,
+            "caption_consensus": 0.9070378541946411
+          }
+        },
+        {
+          "caption": "A dog is jumping over a hurdle in a dog show.",
+          "raw_scores": {
+            "original_clip": 0.32796552777290344,
+            "multiview_clip": 0.3468037247657776,
+            "language_probability": 0.41719568256726264,
+            "caption_consensus": 0.883145272731781
+          }
+        },
+        {
+          "caption": "A black and white dog is jumping over a hurdle.",
+          "raw_scores": {
+            "original_clip": 0.26980137825012207,
+            "multiview_clip": 0.2922021448612213,
+            "language_probability": 0.5603315804215744,
+            "caption_consensus": 0.852044403553009
+          }
+        },
+        {
+          "caption": "A black and white dog is jumping over hurdles.",
+          "raw_scores": {
+            "original_clip": 0.27752771973609924,
+            "multiview_clip": 0.29687032103538513,
+            "language_probability": 0.4613102857387637,
+            "caption_consensus": 0.8505626916885376
+          }
+        },
+        {
+          "caption": "A brown dog is jumping over a hurdle.",
+          "raw_scores": {
+            "original_clip": 0.30029773712158203,
+            "multiview_clip": 0.3258078098297119,
+            "language_probability": 0.5539197080815894,
+            "caption_consensus": 0.8751131296157837
+          }
+        },
+        {
+          "caption": "A brown and white dog is jumping over a hurdle.",
+          "raw_scores": {
+            "original_clip": 0.29588013887405396,
+            "multiview_clip": 0.31521493196487427,
+            "language_probability": 0.576835274668792,
+            "caption_consensus": 0.8637319803237915
+          }
+        },
+        {
+          "caption": "A dog jumps over a hurdle in a dog show.",
+          "raw_scores": {
+            "original_clip": 0.3182717263698578,
+            "multiview_clip": 0.3403303027153015,
+            "language_probability": 0.4529697271208653,
+            "caption_consensus": 0.8702201247215271
+          }
+        }
+      ],
+      "weights": [
+        0.5,
+        0,
+        0.5,
+        0
+      ]
+    }
+  }
+}

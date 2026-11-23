@@ -1,0 +1,128 @@
+{
+  "results": [
+    {
+      "comparator": "single20",
+      "metric": "CIDEr",
+      "delta": 2.4808516363554327,
+      "ci95": [
+        0.27583256185592886,
+        4.632362012491958
+      ],
+      "adjusted_interval": [
+        -0.8640405563433738,
+        5.844326103270297
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    },
+    {
+      "comparator": "single20",
+      "metric": "SPICE",
+      "delta": 0.3473707419243796,
+      "ci95": [
+        -0.04552176124664503,
+        0.7396111858525682
+      ],
+      "adjusted_interval": [
+        -0.2638901249355911,
+        0.9527907238207921
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    },
+    {
+      "comparator": "token_1",
+      "metric": "CIDEr",
+      "delta": 5.005565599213521,
+      "ci95": [
+        2.496317700467354,
+        7.6398170221913135
+      ],
+      "adjusted_interval": [
+        1.3487317886139027,
+        9.006353381553003
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    },
+    {
+      "comparator": "token_1",
+      "metric": "SPICE",
+      "delta": 1.5059215627964757,
+      "ci95": [
+        1.0908835429965549,
+        1.9340990995379268
+      ],
+      "adjusted_interval": [
+        0.871076899551463,
+        2.1464137482376096
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    },
+    {
+      "comparator": "token_8",
+      "metric": "CIDEr",
+      "delta": 6.165671390734439,
+      "ci95": [
+        3.552377031524591,
+        8.818350077704485
+      ],
+      "adjusted_interval": [
+        2.2113922080536272,
+        10.277005018371606
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    },
+    {
+      "comparator": "token_8",
+      "metric": "SPICE",
+      "delta": 2.012068393909695,
+      "ci95": [
+        1.573806295453171,
+        2.4651675736987566
+      ],
+      "adjusted_interval": [
+        1.350860259725988,
+        2.7010550292417204
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    },
+    {
+      "comparator": "token_32",
+      "metric": "CIDEr",
+      "delta": 8.158209336984386,
+      "ci95": [
+        5.605176938149047,
+        10.763535476337902
+      ],
+      "adjusted_interval": [
+        4.372308793974639,
+        12.15252866103287
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    },
+    {
+      "comparator": "token_32",
+      "metric": "SPICE",
+      "delta": 2.472518392246558,
+      "ci95": [
+        2.0337908482301743,
+        2.920449950158462
+      ],
+      "adjusted_interval": [
+        1.8150040404837875,
+        3.153251145781831
+      ],
+      "adjusted_confidence": 0.996875,
+      "comparison_family_size": 16
+    }
+  ],
+  "resamples": 10000,
+  "direction": "multiview minus comparator, points",
+  "random_seed": 20261115,
+  "seed_variability_not_estimated_by_image_bootstrap": true
+}

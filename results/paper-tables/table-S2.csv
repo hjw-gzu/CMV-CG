@@ -1,0 +1,6 @@
+,,Single-view beam width,Five-view,Ours minus beam20
+Dataset,Metric,4,10,20,beam4/view,\Delta [adjusted interval]
+MSCOCO,CIDEr,94.76,95.22,94.24,99.13,"4.892 [3.212, 6.616]"
+MSCOCO,SPICE,18.47,18.78,18.94,19.22,"0.285 [0.007, 0.576]"
+Flickr30k,CIDEr,57.63,58.91,58.68,61.03,"2.351 [-1.168, 5.659]"
+Flickr30k,SPICE,15.43,15.65,15.96,16.31,"0.347 [-0.217, 0.931]"

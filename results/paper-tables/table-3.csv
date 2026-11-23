@@ -1,0 +1,29 @@
+Configuration,B@1,B@4,M,R-L,C,S
+(a) MSCOCO
+Single-view beam20,70.796,27.072,25.218,51.766,94.230,18.935
+"Token aggregation, beam1",72.131,27.449,24.673,52.028,93.216,18.133
+"Token aggregation, beam8",72.164,29.359,24.699,52.446,95.689,18.119
+"Token aggregation, beam32",71.845,29.234,24.575,52.333,95.324,17.997
+"Ours, five-view beam4",71.977,28.755,25.758,52.785,99.109,19.210
+(b) Flickr30k
+Single-view beam20,66.620,22.677,22.164,47.851,58.756,15.970
+"Token aggregation, beam1",66.811,22.801,21.526,47.894,56.231,14.812
+"Token aggregation, beam8",67.184,23.299,20.613,47.085,55.071,14.305
+"Token aggregation, beam32",64.814,22.046,19.927,46.216,53.078,13.845
+"Ours, five-view beam4",68.225,23.994,22.579,48.729,61.237,16.318
+Dataset,Configuration,Mean (s/image),Median (s/image),Median gap
+MSCOCO,"Token aggregation, beam32",1.429,1.391,+11.17%
+MSCOCO,"Ours, five-view beam4",1.339,1.252,0.00% (ref.)
+Flickr30k,"Token aggregation, beam32",1.229,1.192,-10.29%
+Flickr30k,"Ours, five-view beam4",1.343,1.329,0.00% (ref.)
+Dataset,Comparator,\DeltaC [adjusted interval],\DeltaS [adjusted interval]
+"(d) Ours minus comparator, original selection rules"
+MSCOCO,Single-view beam20,"4.879 [3.272, 6.487]","0.275 [-0.008, 0.560]"
+MSCOCO,"Token aggregation, beam32","3.785 [1.928, 5.618]","1.213 [0.874, 1.530]"
+Flickr30k,Single-view beam20,"2.481 [-0.864, 5.844]","0.347 [-0.264, 0.953]"
+Flickr30k,"Token aggregation, beam32","8.158 [4.372, 12.153]","2.473 [1.815, 3.153]"
+"(e) Ours minus comparator, common selector"
+MSCOCO,Single-view beam20,"4.044 [2.571, 5.608]","0.253 [-0.020, 0.530]"
+MSCOCO,Token beam32,"2.026 [0.481, 3.543]","0.009 [-0.259, 0.281]"
+Flickr30k,Single-view beam20,"2.098 [-1.090, 5.284]","0.334 [-0.208, 0.879]"
+Flickr30k,Token beam32,"0.935 [-2.275, 4.065]","-0.039 [-0.577, 0.498]"

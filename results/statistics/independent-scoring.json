@@ -1,0 +1,51 @@
+{
+  "scale": 100,
+  "flickr_per_view_five": {
+    "images": 1000,
+    "metrics_x100": {
+      "Bleu_1": 68.22496865483896,
+      "Bleu_2": 49.54712624617238,
+      "Bleu_3": 34.95010366555631,
+      "Bleu_4": 23.99420260938265,
+      "METEOR": 22.578564167530303,
+      "ROUGE_L": 48.7294809819784,
+      "CIDEr": 61.236616890696126,
+      "SPICE": 16.317529343795947
+    }
+  },
+  "coco_per_view_five": {
+    "images": 5000,
+    "metrics_x100": {
+      "Bleu_1": 71.9766353238069,
+      "Bleu_2": 54.40608050469306,
+      "Bleu_3": 39.769644287669124,
+      "Bleu_4": 28.75480728301009,
+      "METEOR": 25.758345533984684,
+      "ROUGE_L": 52.784929836339145,
+      "CIDEr": 99.10857805369807,
+      "SPICE": 19.209899418029103
+    }
+  },
+  "comparison_caption_files": {
+    "coco-clipre.json.gz": {
+      "images": 5000,
+      "CIDEr_x100": 26.4150941617794
+    },
+    "coco-decap.json.gz": {
+      "images": 5000,
+      "CIDEr_x100": 91.75523347618125
+    },
+    "coco-esper.json.gz": {
+      "images": 5000,
+      "CIDEr_x100": 78.55812248353983
+    },
+    "coco-meacap.json.gz": {
+      "images": 5000,
+      "CIDEr_x100": 77.6463854066413
+    },
+    "flickr-clipre.json.gz": {
+      "images": 1000,
+      "CIDEr_x100": 30.52147633254951
+    }
+  }
+}
