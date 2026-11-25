@@ -1,0 +1,111 @@
+{
+  "figure": 2,
+  "dataset": "flickr",
+  "image_id": 10692,
+  "file_name": "3083913737.jpg",
+  "image_sha256": "98f4aad2447710430fa85a1391105935f71039f77d4291099115042aaaf947c6",
+  "protocol": "per-view",
+  "seed": 1234,
+  "transformations": {
+    "rotations": [
+      5,
+      -5
+    ],
+    "scale": 0.8
+  },
+  "view_pixel_sha256": {
+    "original": "1f149b01df1f90eac399fcc3b408e112d7dc90fdcb1f580814b0ca0695a200c9",
+    "rotate_left": "15e5f447910e303cc92e8c73b2c54bc1c9dab8fdfb8c18e61cbe82eb9e0a7704",
+    "rotate_right": "ac8efb296389f4192d7ead558a8eb906fcb7264d4b266796fdac9bf3056f51b2",
+    "zoom_in": "deb14cf466fa0f157212bc2e20d92b6c6b7664e3b601d2cc402ec12fc484fa60",
+    "zoom_out_black": "6dc14b96d52859a611d293aafe2290718d6465ac5aba230c9e1a81a73132e223"
+  },
+  "photograph": {
+    "title": "Harvest Thailand",
+    "credit": "lynhdan",
+    "source": "https://www.flickr.com/photos/lynhdan/3083913737/",
+    "license": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  "caption": "A group of women work in a field harvesting crops.",
+  "weights": [
+    0.35,
+    0.25,
+    0.2,
+    0.2
+  ],
+  "selected": 2,
+  "candidates": [
+    {
+      "caption": "Women working in a field harvesting crops.",
+      "raw_scores": {
+        "original_clip": 0.3298392593860626,
+        "multiview_clip": 0.33329981565475464,
+        "language_probability": 0.4820156027659459,
+        "caption_consensus": 0.9302583336830139
+      }
+    },
+    {
+      "caption": "Women working in a field of wheat.",
+      "raw_scores": {
+        "original_clip": 0.30865252017974854,
+        "multiview_clip": 0.3122082054615021,
+        "language_probability": 0.4801505817334019,
+        "caption_consensus": 0.9125514030456543
+      }
+    },
+    {
+      "caption": "A group of women work in a field harvesting crops.",
+      "raw_scores": {
+        "original_clip": 0.3434644341468811,
+        "multiview_clip": 0.34325677156448364,
+        "language_probability": 0.4800259638723737,
+        "caption_consensus": 0.9285416603088379
+      }
+    },
+    {
+      "caption": "A group of women working in a field harvesting crops.",
+      "raw_scores": {
+        "original_clip": 0.33107393980026245,
+        "multiview_clip": 0.33339887857437134,
+        "language_probability": 0.4734699507446543,
+        "caption_consensus": 0.9369623064994812
+      }
+    },
+    {
+      "caption": "A group of women working in a field.",
+      "raw_scores": {
+        "original_clip": 0.30730974674224854,
+        "multiview_clip": 0.31123480200767517,
+        "language_probability": 0.46759163895022743,
+        "caption_consensus": 0.9050984978675842
+      }
+    },
+    {
+      "caption": "A group of women working in a field of wheat.",
+      "raw_scores": {
+        "original_clip": 0.31042352318763733,
+        "multiview_clip": 0.31431856751441956,
+        "language_probability": 0.4706847582835136,
+        "caption_consensus": 0.9202913641929626
+      }
+    },
+    {
+      "caption": "A group of women are working in a field harvesting crops.",
+      "raw_scores": {
+        "original_clip": 0.3422657251358032,
+        "multiview_clip": 0.34424683451652527,
+        "language_probability": 0.46462803982666306,
+        "caption_consensus": 0.9349757432937622
+      }
+    },
+    {
+      "caption": "A group of women work in a field of wheat.",
+      "raw_scores": {
+        "original_clip": 0.31728410720825195,
+        "multiview_clip": 0.32011064887046814,
+        "language_probability": 0.4454960053891029,
+        "caption_consensus": 0.9145358204841614
+      }
+    }
+  ]
+}

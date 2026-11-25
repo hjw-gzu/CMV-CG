@@ -1,1 +1,146 @@
-[{"panel":"a","dataset":"coco","image_id":26875,"original_filename":"COCO_val2014_000000404568.jpg","image_sha256":"a026f6f676fd54e26053994efe029469a36694ee8190187f7f3574e96528a9c1","baseline":"A person standing on the beach near the ocean.","ours":"A seagull standing on the beach near the ocean.","reference":"A seagull standing on the sand of a beach"},{"panel":"b","dataset":"coco","image_id":28526,"original_filename":"COCO_val2014_000000557731.jpg","image_sha256":"51ac8d05b0e52220e3e9992e8782b494e336e039a3313c863c3b9e4e4f3b3560","baseline":"A pizza with various toppings sitting on a pizza pan.","ours":"A pizza sitting on top of a cutting board.","reference":"A pizza sitting on top of a wooden cutting board."},{"panel":"c","dataset":"coco","image_id":20441,"original_filename":"COCO_val2014_000000018412.jpg","image_sha256":"1aa060d9b045837f31a6793ea570215ec1342ce7cccdb2fa18c74ac4bcd644b0","baseline":"A young girl holding a cell phone up to her ear.","ours":"A young girl brushing her hair with a hair brush.","reference":"A little girl is brushing her hair in a bathroom."},{"panel":"d","dataset":"coco","image_id":8433,"original_filename":"COCO_val2014_000000147725.jpg","image_sha256":"38d78e088e16ff5b2d6340fa27f39fdfe7c9c1f2142b4464a2f79b27fcc49602","baseline":"a public transit bus on a city street","ours":"A double decker bus is stopped at a bus stop.","reference":"A metro bus driving down a fairly busy city street."},{"panel":"e","dataset":"flickr","image_id":13543,"original_filename":"3421480658.jpg","image_sha256":"f0065127ef4aaa5ecaa5614a98652e87855581bfb360d6b23afa7dff3eb74751","baseline":"A little girl kisses a little boy on the cheek.","ours":"A little girl is petting a cat.","reference":"Little girl in kitchen, kissing a fluffy orange cat."},{"panel":"f","dataset":"flickr","image_id":13990,"original_filename":"3474406285.jpg","image_sha256":"0ac02e61298d46bc944455942df18ab5ff0e3fa0f4ea50d68d02859b6811530c","baseline":"A dog jumps to catch a Frisbee in a competition.","ours":"A dog is jumping over a hurdle in a dog show.","reference":"A dog jumps over a hurdle at a competition."},{"panel":"g","dataset":"flickr","image_id":4801,"original_filename":"231935782.jpg","image_sha256":"9ddc8775b69ad80bb6a8fcb36e7cd38778c048a064c01d43d0ab6f0da1b3604a","baseline":"A man sitting in the passenger seat of a train.","ours":"A man is looking out the window of a train.","reference":"Man looking out the window of a train."},{"panel":"h","dataset":"flickr","image_id":10379,"original_filename":"3039200576.jpg","image_sha256":"e2c762dcab0c9ed1117ffa6ba39f6a3c241cf1f1fb995b50443e4f6a8f3d724d","baseline":"Two girls are crossing the street in the middle of a parking lot.","ours":"A girl in a white shirt is skateboarding on the sidewalk.","reference":"Two girls are walking in car wash parking lot."}]
+[
+  {
+    "panel": "a",
+    "dataset": "coco",
+    "image_id": 220,
+    "original_filename": "COCO_val2014_000000459374.jpg",
+    "image_sha256": "5b768298322849c806ac07a96df784a1c7cf7167eb8caed6e1ab7012fe1455f9",
+    "protocol": "cached",
+    "baseline": "A street lamp on a pole next to a street light.",
+    "ours": "A fire hydrant in front of a street light.",
+    "reference": "A yellow fire hydrant that is on the side of the street.",
+    "reference_index": 4,
+    "photograph": {
+      "title": "Hydrant",
+      "credit": "Chris Ostermann",
+      "source": "https://www.flickr.com/photos/chrisostermann/1283521760/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  {
+    "panel": "b",
+    "dataset": "coco",
+    "image_id": 32583,
+    "original_filename": "COCO_val2014_000000184830.jpg",
+    "image_sha256": "d41289aff45eb4faea14d57b1937e4e11991c522d9a4737328085cd12de5c56e",
+    "protocol": "cached",
+    "baseline": "A living room filled with furniture and a flat screen television.",
+    "ours": "A living room filled with furniture and a fire place",
+    "reference": "A room with a fireplace, couch and chair.",
+    "reference_index": 4,
+    "photograph": {
+      "title": "Living Room",
+      "credit": "Hans Johnson",
+      "source": "https://www.flickr.com/photos/hansnyc/5648040482/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  {
+    "panel": "c",
+    "dataset": "coco",
+    "image_id": 14658,
+    "original_filename": "COCO_val2014_000000075591.jpg",
+    "image_sha256": "b902c03f6b7794b4e14c836cec0a9e419cf21549b168a0c512dfaaf197e32070",
+    "protocol": "cached",
+    "baseline": "a couple of cats are laying on a bed",
+    "ours": "Three cats are laying on a bed together.",
+    "reference": "A group of three cats rest comfortably on a bed.",
+    "reference_index": 1,
+    "photograph": {
+      "title": "Untitled",
+      "credit": "alisa",
+      "source": "https://www.flickr.com/photos/heyalisa/6639605735/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  {
+    "panel": "d",
+    "dataset": "coco",
+    "image_id": 14881,
+    "original_filename": "COCO_val2014_000000149196.jpg",
+    "image_sha256": "fcb5e9c49d462fb630d77d32e4d586184d4cb922430d299b47efed658cbfc771",
+    "protocol": "cached",
+    "baseline": "A market filled with lots of different types of fruit.",
+    "ours": "A variety of stuffed animals hanging from a display.",
+    "reference": "An assortment of stuffed toys at a carnival.",
+    "reference_index": 2,
+    "photograph": {
+      "title": "Going bananas!",
+      "credit": "Ed Kennedy",
+      "source": "https://www.flickr.com/photos/lostinmiami/6056383210/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  {
+    "panel": "e",
+    "dataset": "flickr",
+    "image_id": 29108,
+    "original_filename": "7151070637.jpg",
+    "image_sha256": "b8c6ec969efd721b63d2334ee77f4a5a509d644ab749b4930c5434ac736efd17",
+    "protocol": "per-view",
+    "baseline": "A large group of people are walking on a city street in front of a large building.",
+    "ours": "A group of people are running in front of a building with a large building in the background.",
+    "reference": "Many people run in a marathon through a city.",
+    "reference_index": 4,
+    "photograph": {
+      "title": "2012_05_06_IMG_7103",
+      "credit": "lam_chihang",
+      "source": "https://www.flickr.com/photos/lam_chihang/7151070637/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  {
+    "panel": "f",
+    "dataset": "flickr",
+    "image_id": 12356,
+    "original_filename": "3277162496.jpg",
+    "image_sha256": "853cd60275e7480b0e81f331acdd31d3b5ccc359c35ac338e5d5f83534036922",
+    "protocol": "per-view",
+    "baseline": "Three dogs are playing tug-of-war in a field.",
+    "ours": "Three dogs are playing in a field.",
+    "reference": "Three dogs playing on grass.",
+    "reference_index": 4,
+    "photograph": {
+      "title": "Tressi Calypso e Dana",
+      "credit": "nadia & massimo",
+      "source": "https://www.flickr.com/photos/24641143@N03/3277162496/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  {
+    "panel": "g",
+    "dataset": "flickr",
+    "image_id": 30283,
+    "original_filename": "8052387530.jpg",
+    "image_sha256": "7b61c725579ef66e6b962e7018397be030b5c7d72550d550653ad9a68387920f",
+    "protocol": "per-view",
+    "baseline": "A football player is tackling a player from the opposing team.",
+    "ours": "A football player is tackled by a player from the opposing team.",
+    "reference": "A football player being tackled on a rainy day.",
+    "reference_index": 3,
+    "photograph": {
+      "title": "splash!",
+      "credit": "Kiyotaka Okami",
+      "source": "https://www.flickr.com/photos/40674235@N06/8052387530/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  {
+    "panel": "h",
+    "dataset": "flickr",
+    "image_id": 23006,
+    "original_filename": "4808471657.jpg",
+    "image_sha256": "fdcd230c6e0fa6f0e8121afdc34e95bbe22428a8a439953aa6b3a3deae839b5c",
+    "protocol": "per-view",
+    "baseline": "A girl climbs the side of a cliff overlooking the water.",
+    "ours": "A group of hikers are climbing up a steep, rocky trail.",
+    "reference": "Three people are outside walking up a set of wooden stairs.",
+    "reference_index": 2,
+    "photograph": {
+      "title": "Up they go - watch out for snakes!",
+      "credit": "Julie Jordan Scott",
+      "source": "https://www.flickr.com/photos/juliejordanscott/4808471657/",
+      "license": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  }
+]

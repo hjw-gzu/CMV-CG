@@ -55,12 +55,12 @@ Each image gets ten matched subsets at the smaller of its two unique candidate c
 python scripts/benchmark.py --dataset flickr --images data/local/flickr30k-images --assets assets --output runs/flickr-timing.json
 python scripts/benchmark.py --dataset flickr --backbone blip --images data/local/flickr30k-images --assets assets --output runs/flickr-timing-blip.json
 python scripts/plot_results.py --output runs/figures
-python scripts/export_views.py --dataset flickr --image data/local/flickr30k-images/2867026654.jpg --output runs/module-views
+python scripts/export_views.py --dataset flickr --image data/local/flickr30k-images/3083913737.jpg --output runs/module-views
 ```
 
 The token-aggregation/BLIP timing benchmark uses the recorded 100 test images, alternating method order across three repetitions, two warm-up images and CUDA synchronization. It includes file reading, integrity checking, transforms, encoding, bridge, decoding and selection. Use the raw-image protocol and the same device class for timing comparisons. The separate all-image main efficiency and near-budget comparisons time each configuration once after three warm-up images. GPU timings from the paper are retained in `results/timing`; cached-feature generation is unsuitable for measuring the original end-to-end latency.
 
-The plotting script writes data plots from the recorded numbers; publication artwork can differ in typography. The Flickr30k photos are `3474406285.jpg` in Fig. 1 and `2867026654.jpg` in Fig. 2. The eight Fig. 4 examples have their source image IDs, filenames, hashes, single-view captions, five-view captions and human reference in [qualitative.json](../examples/qualitative.json).
+The plotting script writes data plots from the recorded numbers. Publication artwork can differ in typography. [Fig. 1](../examples/motivation.json) uses Flickr30k `4736841029.jpg` and records the three panel selectors. [Fig. 2](../examples/framework.json) uses Flickr30k `3083913737.jpg` and records the five-view selection. [Fig. 4](../examples/qualitative.json) contains four MSCOCO examples (a–d) decoded from cached bridge features and four Flickr30k examples (e–h) decoded from the original images. Each record includes the original filename, hash, two model captions and the dataset reference caption. [Photo credits](../examples/paper-photo-credits.csv) give provenance and licensing for all three figures.
 
 ## External comparisons
 

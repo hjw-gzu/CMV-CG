@@ -1,190 +1,214 @@
 {
+  "figure": 1,
   "dataset": "flickr",
-  "image_id": 13990,
-  "file_name": "3474406285.jpg",
+  "image_id": 22163,
+  "file_name": "4736841029.jpg",
+  "image_sha256": "ed41e2e757118844b0f86a518aa006aff20b03f188c24ce852f4bf1264ac1f5b",
+  "protocol": "per-view",
+  "seed": 1234,
+  "transformations": {
+    "rotations": [
+      5,
+      -5
+    ],
+    "scale": 0.8
+  },
+  "view_pixel_sha256": {
+    "original": "77a039b4e2ab2a10685d461314f06531eafca59cc9e398fd699f6a46169bce48",
+    "rotate_left": "1afde3b61278831a0fb0c043c86c790337e0cab2970415367cf42ddb0b030ec4",
+    "rotate_right": "0df74505589942df328ff6c91be09f99407626681d2313f4999be2bc0fbb4c77",
+    "zoom_in": "e78fd90aa1aeb85da47b37bef29a9b8239f6e625ee5fac8b8a7d250c725d3846",
+    "zoom_out_black": "b7e15f75a7b4abb7391080bebf572fad64fbe56e4cae399259783c2d83d8c84d"
+  },
+  "photograph": {
+    "title": "Looking Out to Sea",
+    "credit": "Eden, Janine and Jim",
+    "source": "https://www.flickr.com/photos/edenpictures/4736841029/",
+    "license": "https://creativecommons.org/licenses/by/2.0/"
+  },
   "panels": {
     "a": {
       "arm": "single_beam_20",
-      "caption": "A dog jumps in the air to catch a Frisbee.",
+      "caption": "A little girl and a little boy are looking through a telescope.",
       "candidates": [
         {
-          "caption": "A dog jumps to catch a Frisbee.",
+          "caption": "Two little girls looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.29833540320396423,
-            "multiview_clip": 0.3019764721393585,
-            "language_probability": 0.5040047221415196,
-            "caption_consensus": 0.9493715167045593
+            "original_clip": 0.34375014901161194,
+            "multiview_clip": 0.3303734362125397,
+            "language_probability": 0.4795856635593278,
+            "caption_consensus": 0.8116692900657654
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee.",
+          "caption": "Two little girls look through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2960072159767151,
-            "multiview_clip": 0.29862260818481445,
-            "language_probability": 0.4898681861785355,
-            "caption_consensus": 0.9441760182380676
+            "original_clip": 0.3433702886104584,
+            "multiview_clip": 0.3307163715362549,
+            "language_probability": 0.44684217293242395,
+            "caption_consensus": 0.8150760531425476
           }
         },
         {
-          "caption": "A dog jumps in the air to catch a Frisbee.",
+          "caption": "Two girls are looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2875256836414337,
-            "multiview_clip": 0.29405733942985535,
-            "language_probability": 0.5683409099599892,
-            "caption_consensus": 0.9387385845184326
+            "original_clip": 0.3445872664451599,
+            "multiview_clip": 0.330068439245224,
+            "language_probability": 0.43917247748438853,
+            "caption_consensus": 0.7665343880653381
           }
         },
         {
-          "caption": "A dog jumps up to catch a Frisbee.",
+          "caption": "Two little girls are looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2980251908302307,
-            "multiview_clip": 0.30100029706954956,
-            "language_probability": 0.48108760890500024,
-            "caption_consensus": 0.9497126340866089
+            "original_clip": 0.34921279549598694,
+            "multiview_clip": 0.336887389421463,
+            "language_probability": 0.4743172407954008,
+            "caption_consensus": 0.8006211519241333
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in a field.",
+          "caption": "Two little girls looking at the ocean.",
           "raw_scores": {
-            "original_clip": 0.30434828996658325,
-            "multiview_clip": 0.3068121075630188,
-            "language_probability": 0.518298297818351,
-            "caption_consensus": 0.9314448833465576
+            "original_clip": 0.31106582283973694,
+            "multiview_clip": 0.2995150685310364,
+            "language_probability": 0.42746131054217434,
+            "caption_consensus": 0.8132358193397522
           }
         },
         {
-          "caption": "A dog is jumping in the air to catch a Frisbee.",
+          "caption": "Two girls look out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.2935391366481781,
-            "multiview_clip": 0.29754525423049927,
-            "language_probability": 0.5319720468783987,
-            "caption_consensus": 0.9358715415000916
+            "original_clip": 0.30809295177459717,
+            "multiview_clip": 0.2971207797527313,
+            "language_probability": 0.4192658044366207,
+            "caption_consensus": 0.792849063873291
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in a field.",
+          "caption": "Two little girls looking out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3005339205265045,
-            "multiview_clip": 0.30314984917640686,
-            "language_probability": 0.5025359841817041,
-            "caption_consensus": 0.9248363971710205
+            "original_clip": 0.3145885765552521,
+            "multiview_clip": 0.3024851679801941,
+            "language_probability": 0.45432638588890634,
+            "caption_consensus": 0.8111459612846375
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in a competition.",
+          "caption": "Two little girls look out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3379920721054077,
-            "multiview_clip": 0.34191662073135376,
-            "language_probability": 0.5008645390108075,
-            "caption_consensus": 0.9497205018997192
+            "original_clip": 0.32048192620277405,
+            "multiview_clip": 0.3093372881412506,
+            "language_probability": 0.45136559022840006,
+            "caption_consensus": 0.8201758861541748
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in a competition.",
+          "caption": "Two little girls are looking out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.33837375044822693,
-            "multiview_clip": 0.3417540192604065,
-            "language_probability": 0.4864031367595323,
-            "caption_consensus": 0.9479855895042419
+            "original_clip": 0.31774598360061646,
+            "multiview_clip": 0.3080434203147888,
+            "language_probability": 0.4403473753818248,
+            "caption_consensus": 0.8203939199447632
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in midair.",
+          "caption": "A little girl and a little boy look through a telescope.",
           "raw_scores": {
-            "original_clip": 0.3034299612045288,
-            "multiview_clip": 0.30999791622161865,
-            "language_probability": 0.4823985037290016,
-            "caption_consensus": 0.9508935213088989
+            "original_clip": 0.3349836766719818,
+            "multiview_clip": 0.32458919286727905,
+            "language_probability": 0.48649131515513044,
+            "caption_consensus": 0.8259850740432739
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in a park.",
+          "caption": "A little girl and a little boy looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2997673749923706,
-            "multiview_clip": 0.3009940981864929,
-            "language_probability": 0.47640134469236795,
-            "caption_consensus": 0.9272511005401611
+            "original_clip": 0.3332185745239258,
+            "multiview_clip": 0.322664350271225,
+            "language_probability": 0.485955511267657,
+            "caption_consensus": 0.8304824829101562
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in midair.",
+          "caption": "A little girl and a little boy are looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.29939892888069153,
-            "multiview_clip": 0.30562135577201843,
-            "language_probability": 0.47633435731797974,
-            "caption_consensus": 0.9477772116661072
+            "original_clip": 0.3401564061641693,
+            "multiview_clip": 0.3289479911327362,
+            "language_probability": 0.5036118801713804,
+            "caption_consensus": 0.8178611397743225
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee during a competition.",
+          "caption": "A little girl and a little boy look out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3314288854598999,
-            "multiview_clip": 0.34015634655952454,
-            "language_probability": 0.4739589673918998,
-            "caption_consensus": 0.9175425171852112
+            "original_clip": 0.31331148743629456,
+            "multiview_clip": 0.30129438638687134,
+            "language_probability": 0.4822535232958067,
+            "caption_consensus": 0.8158214092254639
           }
         },
         {
-          "caption": "A dog jumps up to catch a Frisbee in a field.",
+          "caption": "A little girl and a little boy are looking at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3043128252029419,
-            "multiview_clip": 0.30593547224998474,
-            "language_probability": 0.48942266661572875,
-            "caption_consensus": 0.9302877187728882
+            "original_clip": 0.30097225308418274,
+            "multiview_clip": 0.2917332351207733,
+            "language_probability": 0.463870552395476,
+            "caption_consensus": 0.8223439455032349
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in front of a crowd.",
+          "caption": "A little girl and a little boy are looking at a telescope.",
           "raw_scores": {
-            "original_clip": 0.32579997181892395,
-            "multiview_clip": 0.3309776186943054,
-            "language_probability": 0.5097973662200758,
-            "caption_consensus": 0.9375979900360107
+            "original_clip": 0.3457700312137604,
+            "multiview_clip": 0.33432307839393616,
+            "language_probability": 0.45547447337973457,
+            "caption_consensus": 0.8096031546592712
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in front of a crowd.",
+          "caption": "A little girl and a little boy look out the window of a plane.",
           "raw_scores": {
-            "original_clip": 0.32742375135421753,
-            "multiview_clip": 0.3315867483615875,
-            "language_probability": 0.4966695381962514,
-            "caption_consensus": 0.9342140555381775
+            "original_clip": 0.26675495505332947,
+            "multiview_clip": 0.255301296710968,
+            "language_probability": 0.4786944126796921,
+            "caption_consensus": 0.7859954833984375
           }
         },
         {
-          "caption": "A dog jumps in the air to catch a Frisbee in a competition.",
+          "caption": "A little girl and a little boy are looking through a telescope at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3192911744117737,
-            "multiview_clip": 0.3271966874599457,
-            "language_probability": 0.5130842706012038,
-            "caption_consensus": 0.9300767779350281
+            "original_clip": 0.3580470681190491,
+            "multiview_clip": 0.34913352131843567,
+            "language_probability": 0.493083526380389,
+            "caption_consensus": 0.8158586621284485
           }
         },
         {
-          "caption": "A dog jumps in the air to catch a Frisbee in a field.",
+          "caption": "A little girl and a little boy look out the window of a train.",
           "raw_scores": {
-            "original_clip": 0.2949712872505188,
-            "multiview_clip": 0.30046021938323975,
-            "language_probability": 0.5106504699641484,
-            "caption_consensus": 0.9293134808540344
+            "original_clip": 0.2566758692264557,
+            "multiview_clip": 0.2483803927898407,
+            "language_probability": 0.4599229199785798,
+            "caption_consensus": 0.7556286454200745
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in front of a crowd of people.",
+          "caption": "A little girl and a little boy look out over the water at the ocean.",
           "raw_scores": {
-            "original_clip": 0.32738587260246277,
-            "multiview_clip": 0.33217474818229675,
-            "language_probability": 0.5058012928349087,
-            "caption_consensus": 0.9296674132347107
+            "original_clip": 0.3043421804904938,
+            "multiview_clip": 0.2930413782596588,
+            "language_probability": 0.46564504400989554,
+            "caption_consensus": 0.8054471015930176
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in front of a crowd of spectators.",
+          "caption": "A little girl and a little boy are looking out the window of a plane.",
           "raw_scores": {
-            "original_clip": 0.33477020263671875,
-            "multiview_clip": 0.3422400951385498,
-            "language_probability": 0.4980852438885869,
-            "caption_consensus": 0.923008382320404
+            "original_clip": 0.27091270685195923,
+            "multiview_clip": 0.2596149444580078,
+            "language_probability": 0.46366394616664924,
+            "caption_consensus": 0.784946620464325
           }
         }
       ],
@@ -197,186 +221,186 @@
     },
     "b": {
       "arm": "single_beam_20",
-      "caption": "A dog jumps to catch a Frisbee in a competition.",
+      "caption": "A little girl and a little boy are looking through a telescope at the ocean.",
       "candidates": [
         {
-          "caption": "A dog jumps to catch a Frisbee.",
+          "caption": "Two little girls looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.29833540320396423,
-            "multiview_clip": 0.3019764721393585,
-            "language_probability": 0.5040047221415196,
-            "caption_consensus": 0.9493715167045593
+            "original_clip": 0.34375014901161194,
+            "multiview_clip": 0.3303734362125397,
+            "language_probability": 0.4795856635593278,
+            "caption_consensus": 0.8116692900657654
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee.",
+          "caption": "Two little girls look through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2960072159767151,
-            "multiview_clip": 0.29862260818481445,
-            "language_probability": 0.4898681861785355,
-            "caption_consensus": 0.9441760182380676
+            "original_clip": 0.3433702886104584,
+            "multiview_clip": 0.3307163715362549,
+            "language_probability": 0.44684217293242395,
+            "caption_consensus": 0.8150760531425476
           }
         },
         {
-          "caption": "A dog jumps in the air to catch a Frisbee.",
+          "caption": "Two girls are looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2875256836414337,
-            "multiview_clip": 0.29405733942985535,
-            "language_probability": 0.5683409099599892,
-            "caption_consensus": 0.9387385845184326
+            "original_clip": 0.3445872664451599,
+            "multiview_clip": 0.330068439245224,
+            "language_probability": 0.43917247748438853,
+            "caption_consensus": 0.7665343880653381
           }
         },
         {
-          "caption": "A dog jumps up to catch a Frisbee.",
+          "caption": "Two little girls are looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2980251908302307,
-            "multiview_clip": 0.30100029706954956,
-            "language_probability": 0.48108760890500024,
-            "caption_consensus": 0.9497126340866089
+            "original_clip": 0.34921279549598694,
+            "multiview_clip": 0.336887389421463,
+            "language_probability": 0.4743172407954008,
+            "caption_consensus": 0.8006211519241333
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in a field.",
+          "caption": "Two little girls looking at the ocean.",
           "raw_scores": {
-            "original_clip": 0.30434828996658325,
-            "multiview_clip": 0.3068121075630188,
-            "language_probability": 0.518298297818351,
-            "caption_consensus": 0.9314448833465576
+            "original_clip": 0.31106582283973694,
+            "multiview_clip": 0.2995150685310364,
+            "language_probability": 0.42746131054217434,
+            "caption_consensus": 0.8132358193397522
           }
         },
         {
-          "caption": "A dog is jumping in the air to catch a Frisbee.",
+          "caption": "Two girls look out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.2935391366481781,
-            "multiview_clip": 0.29754525423049927,
-            "language_probability": 0.5319720468783987,
-            "caption_consensus": 0.9358715415000916
+            "original_clip": 0.30809295177459717,
+            "multiview_clip": 0.2971207797527313,
+            "language_probability": 0.4192658044366207,
+            "caption_consensus": 0.792849063873291
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in a field.",
+          "caption": "Two little girls looking out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3005339205265045,
-            "multiview_clip": 0.30314984917640686,
-            "language_probability": 0.5025359841817041,
-            "caption_consensus": 0.9248363971710205
+            "original_clip": 0.3145885765552521,
+            "multiview_clip": 0.3024851679801941,
+            "language_probability": 0.45432638588890634,
+            "caption_consensus": 0.8111459612846375
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in a competition.",
+          "caption": "Two little girls look out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3379920721054077,
-            "multiview_clip": 0.34191662073135376,
-            "language_probability": 0.5008645390108075,
-            "caption_consensus": 0.9497205018997192
+            "original_clip": 0.32048192620277405,
+            "multiview_clip": 0.3093372881412506,
+            "language_probability": 0.45136559022840006,
+            "caption_consensus": 0.8201758861541748
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in a competition.",
+          "caption": "Two little girls are looking out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.33837375044822693,
-            "multiview_clip": 0.3417540192604065,
-            "language_probability": 0.4864031367595323,
-            "caption_consensus": 0.9479855895042419
+            "original_clip": 0.31774598360061646,
+            "multiview_clip": 0.3080434203147888,
+            "language_probability": 0.4403473753818248,
+            "caption_consensus": 0.8203939199447632
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in midair.",
+          "caption": "A little girl and a little boy look through a telescope.",
           "raw_scores": {
-            "original_clip": 0.3034299612045288,
-            "multiview_clip": 0.30999791622161865,
-            "language_probability": 0.4823985037290016,
-            "caption_consensus": 0.9508935213088989
+            "original_clip": 0.3349836766719818,
+            "multiview_clip": 0.32458919286727905,
+            "language_probability": 0.48649131515513044,
+            "caption_consensus": 0.8259850740432739
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in a park.",
+          "caption": "A little girl and a little boy looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.2997673749923706,
-            "multiview_clip": 0.3009940981864929,
-            "language_probability": 0.47640134469236795,
-            "caption_consensus": 0.9272511005401611
+            "original_clip": 0.3332185745239258,
+            "multiview_clip": 0.322664350271225,
+            "language_probability": 0.485955511267657,
+            "caption_consensus": 0.8304824829101562
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in midair.",
+          "caption": "A little girl and a little boy are looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.29939892888069153,
-            "multiview_clip": 0.30562135577201843,
-            "language_probability": 0.47633435731797974,
-            "caption_consensus": 0.9477772116661072
+            "original_clip": 0.3401564061641693,
+            "multiview_clip": 0.3289479911327362,
+            "language_probability": 0.5036118801713804,
+            "caption_consensus": 0.8178611397743225
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee during a competition.",
+          "caption": "A little girl and a little boy look out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3314288854598999,
-            "multiview_clip": 0.34015634655952454,
-            "language_probability": 0.4739589673918998,
-            "caption_consensus": 0.9175425171852112
+            "original_clip": 0.31331148743629456,
+            "multiview_clip": 0.30129438638687134,
+            "language_probability": 0.4822535232958067,
+            "caption_consensus": 0.8158214092254639
           }
         },
         {
-          "caption": "A dog jumps up to catch a Frisbee in a field.",
+          "caption": "A little girl and a little boy are looking at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3043128252029419,
-            "multiview_clip": 0.30593547224998474,
-            "language_probability": 0.48942266661572875,
-            "caption_consensus": 0.9302877187728882
+            "original_clip": 0.30097225308418274,
+            "multiview_clip": 0.2917332351207733,
+            "language_probability": 0.463870552395476,
+            "caption_consensus": 0.8223439455032349
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in front of a crowd.",
+          "caption": "A little girl and a little boy are looking at a telescope.",
           "raw_scores": {
-            "original_clip": 0.32579997181892395,
-            "multiview_clip": 0.3309776186943054,
-            "language_probability": 0.5097973662200758,
-            "caption_consensus": 0.9375979900360107
+            "original_clip": 0.3457700312137604,
+            "multiview_clip": 0.33432307839393616,
+            "language_probability": 0.45547447337973457,
+            "caption_consensus": 0.8096031546592712
           }
         },
         {
-          "caption": "A dog leaps to catch a Frisbee in front of a crowd.",
+          "caption": "A little girl and a little boy look out the window of a plane.",
           "raw_scores": {
-            "original_clip": 0.32742375135421753,
-            "multiview_clip": 0.3315867483615875,
-            "language_probability": 0.4966695381962514,
-            "caption_consensus": 0.9342140555381775
+            "original_clip": 0.26675495505332947,
+            "multiview_clip": 0.255301296710968,
+            "language_probability": 0.4786944126796921,
+            "caption_consensus": 0.7859954833984375
           }
         },
         {
-          "caption": "A dog jumps in the air to catch a Frisbee in a competition.",
+          "caption": "A little girl and a little boy are looking through a telescope at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3192911744117737,
-            "multiview_clip": 0.3271966874599457,
-            "language_probability": 0.5130842706012038,
-            "caption_consensus": 0.9300767779350281
+            "original_clip": 0.3580470681190491,
+            "multiview_clip": 0.34913352131843567,
+            "language_probability": 0.493083526380389,
+            "caption_consensus": 0.8158586621284485
           }
         },
         {
-          "caption": "A dog jumps in the air to catch a Frisbee in a field.",
+          "caption": "A little girl and a little boy look out the window of a train.",
           "raw_scores": {
-            "original_clip": 0.2949712872505188,
-            "multiview_clip": 0.30046021938323975,
-            "language_probability": 0.5106504699641484,
-            "caption_consensus": 0.9293134808540344
+            "original_clip": 0.2566758692264557,
+            "multiview_clip": 0.2483803927898407,
+            "language_probability": 0.4599229199785798,
+            "caption_consensus": 0.7556286454200745
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in front of a crowd of people.",
+          "caption": "A little girl and a little boy look out over the water at the ocean.",
           "raw_scores": {
-            "original_clip": 0.32738587260246277,
-            "multiview_clip": 0.33217474818229675,
-            "language_probability": 0.5058012928349087,
-            "caption_consensus": 0.9296674132347107
+            "original_clip": 0.3043421804904938,
+            "multiview_clip": 0.2930413782596588,
+            "language_probability": 0.46564504400989554,
+            "caption_consensus": 0.8054471015930176
           }
         },
         {
-          "caption": "A dog jumps to catch a Frisbee in front of a crowd of spectators.",
+          "caption": "A little girl and a little boy are looking out the window of a plane.",
           "raw_scores": {
-            "original_clip": 0.33477020263671875,
-            "multiview_clip": 0.3422400951385498,
-            "language_probability": 0.4980852438885869,
-            "caption_consensus": 0.923008382320404
+            "original_clip": 0.27091270685195923,
+            "multiview_clip": 0.2596149444580078,
+            "language_probability": 0.46366394616664924,
+            "caption_consensus": 0.784946620464325
           }
         }
       ],
@@ -389,105 +413,159 @@
     },
     "c": {
       "arm": "multiview",
-      "caption": "A dog is jumping over a hurdle in a competition.",
+      "caption": "A little girl is looking through a telescope at the ocean.",
       "candidates": [
         {
-          "caption": "A dog jumps over a hurdle in a competition.",
+          "caption": "Two little girls looking at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3063870668411255,
-            "multiview_clip": 0.332108736038208,
-            "language_probability": 0.5339812693471422,
-            "caption_consensus": 0.9085068106651306
+            "original_clip": 0.31106582283973694,
+            "multiview_clip": 0.2995150685310364,
+            "language_probability": 0.4512741537493175,
+            "caption_consensus": 0.8430341482162476
           }
         },
         {
-          "caption": "A dog is jumping over a hurdle in a competition.",
+          "caption": "Two little girls look out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.3125108778476715,
-            "multiview_clip": 0.33495664596557617,
-            "language_probability": 0.5188002350031898,
-            "caption_consensus": 0.9111347198486328
+            "original_clip": 0.32048192620277405,
+            "multiview_clip": 0.3093372881412506,
+            "language_probability": 0.45136499330770646,
+            "caption_consensus": 0.849693775177002
           }
         },
         {
-          "caption": "A dog is jumping over a hurdle in a field.",
+          "caption": "Two little girls look out the window of a plane.",
           "raw_scores": {
-            "original_clip": 0.29836708307266235,
-            "multiview_clip": 0.3233616352081299,
-            "language_probability": 0.37191883629740297,
-            "caption_consensus": 0.9036436080932617
+            "original_clip": 0.28790202736854553,
+            "multiview_clip": 0.2759590744972229,
+            "language_probability": 0.4496840667390241,
+            "caption_consensus": 0.7834129929542542
           }
         },
         {
-          "caption": "A dog is running through a field while a man watches.",
+          "caption": "Two little girls look out over the water at the ocean.",
           "raw_scores": {
-            "original_clip": 0.28108277916908264,
-            "multiview_clip": 0.27747994661331177,
-            "language_probability": 0.3959590542218567,
-            "caption_consensus": 0.6848853230476379
+            "original_clip": 0.31187406182289124,
+            "multiview_clip": 0.30062082409858704,
+            "language_probability": 0.4339158990387764,
+            "caption_consensus": 0.8415579795837402
           }
         },
         {
-          "caption": "A dog jumps over a hurdle.",
+          "caption": "Two little girls are looking out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.2899916172027588,
-            "multiview_clip": 0.3154976963996887,
-            "language_probability": 0.4895112461288235,
-            "caption_consensus": 0.9070378541946411
+            "original_clip": 0.31774598360061646,
+            "multiview_clip": 0.3080434203147888,
+            "language_probability": 0.48039998164604464,
+            "caption_consensus": 0.8527754545211792
           }
         },
         {
-          "caption": "A dog is jumping over a hurdle in a dog show.",
+          "caption": "A little girl and a little boy are looking at the ocean.",
           "raw_scores": {
-            "original_clip": 0.32796552777290344,
-            "multiview_clip": 0.3468037247657776,
-            "language_probability": 0.41719568256726264,
-            "caption_consensus": 0.883145272731781
+            "original_clip": 0.30097225308418274,
+            "multiview_clip": 0.2917332351207733,
+            "language_probability": 0.48643741604389695,
+            "caption_consensus": 0.8517748117446899
           }
         },
         {
-          "caption": "A black and white dog is jumping over a hurdle.",
+          "caption": "A little girl and a little boy are looking out at the ocean.",
           "raw_scores": {
-            "original_clip": 0.26980137825012207,
-            "multiview_clip": 0.2922021448612213,
-            "language_probability": 0.5603315804215744,
-            "caption_consensus": 0.852044403553009
+            "original_clip": 0.3085314631462097,
+            "multiview_clip": 0.2991929352283478,
+            "language_probability": 0.49483400532591154,
+            "caption_consensus": 0.8552290797233582
           }
         },
         {
-          "caption": "A black and white dog is jumping over hurdles.",
+          "caption": "A little girl and a little boy look out over the water at the ocean.",
           "raw_scores": {
-            "original_clip": 0.27752771973609924,
-            "multiview_clip": 0.29687032103538513,
-            "language_probability": 0.4613102857387637,
-            "caption_consensus": 0.8505626916885376
+            "original_clip": 0.30434221029281616,
+            "multiview_clip": 0.2930414080619812,
+            "language_probability": 0.451095811365827,
+            "caption_consensus": 0.8376100063323975
           }
         },
         {
-          "caption": "A brown dog is jumping over a hurdle.",
+          "caption": "Two little girls are looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.30029773712158203,
-            "multiview_clip": 0.3258078098297119,
-            "language_probability": 0.5539197080815894,
-            "caption_consensus": 0.8751131296157837
+            "original_clip": 0.34921279549598694,
+            "multiview_clip": 0.336887389421463,
+            "language_probability": 0.47894005869956463,
+            "caption_consensus": 0.7555453181266785
           }
         },
         {
-          "caption": "A brown and white dog is jumping over a hurdle.",
+          "caption": "Two little girls are looking at the ocean.",
           "raw_scores": {
-            "original_clip": 0.29588013887405396,
-            "multiview_clip": 0.31521493196487427,
-            "language_probability": 0.576835274668792,
-            "caption_consensus": 0.8637319803237915
+            "original_clip": 0.31659743189811707,
+            "multiview_clip": 0.30813848972320557,
+            "language_probability": 0.45808492661570416,
+            "caption_consensus": 0.8567275404930115
           }
         },
         {
-          "caption": "A dog jumps over a hurdle in a dog show.",
+          "caption": "A little girl looking through a telescope.",
           "raw_scores": {
-            "original_clip": 0.3182717263698578,
-            "multiview_clip": 0.3403303027153015,
-            "language_probability": 0.4529697271208653,
-            "caption_consensus": 0.8702201247215271
+            "original_clip": 0.3150582015514374,
+            "multiview_clip": 0.3181582987308502,
+            "language_probability": 0.5833716093301734,
+            "caption_consensus": 0.7583375573158264
+          }
+        },
+        {
+          "caption": "A little girl is looking through a telescope.",
+          "raw_scores": {
+            "original_clip": 0.32189714908599854,
+            "multiview_clip": 0.3242133855819702,
+            "language_probability": 0.5887773949886976,
+            "caption_consensus": 0.7616867423057556
+          }
+        },
+        {
+          "caption": "A little girl is looking through a telescope at the ocean.",
+          "raw_scores": {
+            "original_clip": 0.342094749212265,
+            "multiview_clip": 0.3472250699996948,
+            "language_probability": 0.5608644485718821,
+            "caption_consensus": 0.783356249332428
+          }
+        },
+        {
+          "caption": "A little girl is looking through a telescope at a city.",
+          "raw_scores": {
+            "original_clip": 0.31798630952835083,
+            "multiview_clip": 0.3157191574573517,
+            "language_probability": 0.48002529127932814,
+            "caption_consensus": 0.7447767853736877
+          }
+        },
+        {
+          "caption": "A group of children are looking at the ocean.",
+          "raw_scores": {
+            "original_clip": 0.282392293214798,
+            "multiview_clip": 0.29007846117019653,
+            "language_probability": 0.4340223369501565,
+            "caption_consensus": 0.7734910249710083
+          }
+        },
+        {
+          "caption": "A little girl and a little boy are looking at the water.",
+          "raw_scores": {
+            "original_clip": 0.27949410676956177,
+            "multiview_clip": 0.2682301998138428,
+            "language_probability": 0.4558197987284186,
+            "caption_consensus": 0.8086791634559631
+          }
+        },
+        {
+          "caption": "A little girl and a little boy are looking out over the water at the ocean.",
+          "raw_scores": {
+            "original_clip": 0.30764734745025635,
+            "multiview_clip": 0.29748570919036865,
+            "language_probability": 0.46976695573484006,
+            "caption_consensus": 0.8515827059745789
           }
         }
       ],

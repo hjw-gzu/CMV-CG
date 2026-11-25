@@ -69,7 +69,9 @@ python -m cmv_cg --source flickr --dataset flickr --protocol cached --image-id 1
 python scripts/replay.py --pools runs/flickr-example/pools.jsonl --predictions runs/flickr-example/predictions.json
 ```
 
-On the verified CPU run, this produces **“A dog is jumping over a hurdle in a dog show.”** This prediction belongs to the cached test protocol. The motivation figure uses its own beam-allocation comparison and its own selector, recorded in [the example](examples/motivation.json).
+On the verified CPU run, this cached example produces **“A dog is jumping over a hurdle in a dog show.”**
+
+The paper examples are [Fig. 1, the seaside telescope](examples/motivation.json), [Fig. 2, the harvest scene](examples/framework.json), and [Fig. 4, the eight qualitative panels](examples/qualitative.json). The [photo credits](examples/paper-photo-credits.csv) link to each source photograph and its license. Run `python scripts/verify_results.py` to reselect all three Fig. 1 captions from stored scores.
 
 Run the COCO single-image example with `--source coco --dataset coco --protocol cached --image-id 0`. The tested CPU output is **“A man riding a motorcycle down a dirt road.”**
 
